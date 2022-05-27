@@ -1,9 +1,12 @@
-from cmath import sqrt
-
+from cmath import *
 from pandas import isnull
+import math
 
 
 class Punto():
+    def __init__(self,x=0,y=0):
+        self.x = x
+        self.y = y
     def __init__(self):
         self.x = int(input('Por favor digite la coordenada X: '))
         self.y = int(input('Por favor digite la coordenada Y: '))
@@ -40,8 +43,25 @@ class Punto():
         dist = sqrt((p2.x - self.x)**2 + (p2.y - self.y)**2)
         print(f'La distancia entre los puntos es: {dist}')
         
+
+class Rectangulo():        
+        def __init__(self,pini=Punto(),pfin=Punto()):
+            self.pini = pini
+            self.pfin = pfin
+            
+        def base(self):
+            base = abs(self.pfin.x - self.pini.x)
+            return base
         
-if __name__=='__main__':
+        def altura(self):
+            return abs(self.pfin.y - self.pini.y)
+    
+        def area(self):
+            area = (self.base()*self.altura())/2
+            print(f'El area del rectangulo es: {area}')
+                
+  
+if __name__=='__main__': 
         p1 = Punto()
         print(p1)
         p1.Cuadrante()
@@ -50,9 +70,11 @@ if __name__=='__main__':
         print(p2)
         print(f'El Vector Resultante es: {p1.Vector(p2)}')
         p1.Distancia(p2)
-                
-
-
-    
-    
+        print('_______________RECTANGULO_______________')
+        r = Rectangulo()
+        base = r.base()
+        print(base)
+        altu = r.altura()
+        print(altu) 
+        r.area()
         
