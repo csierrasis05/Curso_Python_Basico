@@ -1,0 +1,89 @@
+requests
+Es según sus creadores Python HTTP para humanos. La librería requests te permitirá hacer peticiones por http de una manera sencilla. Cuando se hace una petición, requests automáticamente decodificará el contenido extraido de un servidor y la mayoría de caracteres unicode serán decodificados correctamente.
+
+La página de https://requests.readthedocs.io/es/latest/
+
+tqdm
+Barras de progreso para Python. Las barras de progreso son bastante útiles porque ayudan a hacer que los trabajos de procesamiento de datos sean menos dolorosos entre otras cosas porque mostrarán una estimación confiable de cuánto tiempo tomará y el porque el usuario puede ver de inmediato si una tarea se ha detenido.
+
+La página de https://tqdm.github.io/
+
+pillow
+Una herramienta para manipular imágenes. Es un fork de PIL y es más fácil de usar, bastante útil si trabajas con imágenes frecuentemente.
+
+La página de https://pillow.readthedocs.io/en/stable/
+
+scrapy
+Scrapy es framework que te permitirá rastrear sitios web y extraer datos estructurados que pueden utilizarse para una amplia gama de aplicaciones, como la extracción de datos, el procesamiento de información o el archivo histórico.
+
+La página de https://scrapy.org/
+
+
+
+NumPy
+NumPy es el paquete más usado para computación científica con Python. Contiene, entre otras cosas:
+
+Un poderoso objeto de matriz N-dimensional
+
+Funciones sofisticadas (broadcasting)
+
+Herramientas para la integración de código C / C ++ y Fortran.
+
+Álgebra lineal útil, transformada de Fourier y capacidades de números aleatorios.
+
+La página de https://numpy.org/
+
+
+
+pandas
+Pandas es una biblioteca de código abierto con licencia BSD que proporciona estructuras de datos de alto rendimiento, fáciles de usar y herramientas de análisis de datos para el lenguaje de programación Python.
+
+Pretende ser un bloque de construcción fundamental para realizar análisis prácticos de datos del mundo real con Python. Pandas es muy extenso y para entender mejor todo lo que puedes hacer es mejor pasar por la página del proyecto.
+
+La página de https://pandas.pydata.org/
+
+scapy
+Scapy permite enviar, rastrear y diseccionar y falsificar paquetes de red. Esta capacidad permite la construcción de herramientas que pueden sondear, escanear o atacar redes.
+
+En otras palabras, Scapy es un poderoso programa interactivo de manipulación de paquetes. Es capaz de forjar o decodificar paquetes de una gran cantidad de protocolos, enviarlos por cable, capturarlos, hacer coincidir solicitudes y respuestas, y mucho más. Scapy puede manejar fácilmente la mayoría de las tareas clásicas como escaneo, rastreo de rutas, sondeo, pruebas unitarias, ataques o descubrimiento de redes. Puede reemplazar hping, arpspoof, arp-sk, arping, p0f e incluso algunas partes de Nmap, tcpdump y tshark).
+
+La página de https://scrapy.org/
+
+
+
+Matplotlib
+Matplotlib es una biblioteca de trazado 2D que produce gráficas de buena calidad en una variedad de formatos y entornos interactivos. Podrás generar gráficas, histogramas, espectros de potencia, gráficas de barras, gráficas de errores, diagramas de dispersión, etc., con unas pocas líneas de código.
+
+La página de https://matplotlib.org/
+
+Kivy
+Kivy es una biblioteca de software de código abierto para el rápido desarrollo de aplicaciones equipadas con interfaces de usuario novedosas, como las aplicaciones multitáctiles. Es proyecto multiplataforma con un módulo para Python 2 y Python 3.
+
+La página de https://kivy.org/#home
+
+NLTK
+NLTK es una plataforma líder para la creación de programas en Python para trabajar con datos en lenguaje humano. Proporciona interfaces fáciles de usar para más de 50 recursos corporales y léxicos, como WordNet, junto con un conjunto de bibliotecas de procesamiento de texto para clasificación, tokenización, derivación, etiquetado, análisis y razonamiento semántico, wrappers para bibliotecas NLP muy solidas.
+
+La página de https://www.nltk.org/
+
+Keras
+Keras es una API de redes neuronales de alto nivel, escrita en Python y capaz de ejecutarse sobre TensorFlow, CNTK o Theano. Fue desarrollada para permitir a los desarrolladores experimentación rápida. Con al filosofía de «Poder pasar de la idea al resultado con el menor retraso posible es clave para hacer una buena investigación».
+
+La página de https://keras.io/
+
+SQLAlchemy
+SQLAlchemy es el kit de herramientas SQL para Python y un mapeador relacional de objetos que ofrece a los desarrolladores de aplicaciones el máximo poder y flexibilidad de SQL.
+
+Proporciona un conjunto completo de patrones de persistencia conocidos a nivel empresarial, diseñados para el acceso a bases de datos eficientes y de alto rendimiento.
+
+La página de https://www.sqlalchemy.org/
+
+Django
+Django es un framwork web para Python de alto nivel que fomenta el desarrollo rápido y el diseño limpio y pragmático. Creado por desarrolladores experimentados, se encarga de gran parte de las complicaciones del desarrollo web, por lo que podrás concentrarte en escribir aplicaciones sin necesidad de reinventar la rueda. Es gratis y de código abierto.
+
+La página de https://www.djangoproject.com/
+
+Twisted
+Twisted es un framework de red que se basa en el paradigma de la programación dirigida por eventos, quiere decir que los usuarios de Twisted pueden escribir pequeños callbacks (retrollamadas) predefinidos en el framework para realizar tareas complejas. Está bajo la licencia MIT.
+
+La página de https://twistedmatrix.com/trac/
